@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Home | ShoeStore </title>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a class="brand" href="index.html">
+      <img src="./images/logo.jpg" alt="ShoeStore logo" />
+      <h1 class="brand-title">ShoeStore </h1>
+    </a>
+
+    <nav class="nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="show_product.html">Details</a>
+    </nav>
+
+  </div>
+</header>
+
+<main class="main">
+  <div class="container">
+
+    <section class="card hero" >
+      <div class="flex-col">
+        <h2 class="page-title">ShoeStore</h2>
+       
+        <div class="flex-row">
+          <article class="card flex-col">
+            <h3 class="page-title">Login</h3>
+
+            <form class="form">
+              <div class="form-row">
+                <div>
+                  <label for="username">User Name: </label>
+                  <input id="username" name="username" type="text"  required />
+                </div>
+                <div>
+                  <label for="password">Password: </label>
+                  <input id="password" name="password" type="password"  required />
+                </div>
+              </div>
+
+              <button class="btn primary" type="submit">Submit</button>
+             
+            </form>
+          </article>
+
+          <aside class="card flex-col" aria-label="Store summary">
+            <h3 class="page-title" >Today’s summary</h3>
+            <ul>
+              <li>New arrivals: 3 running shoes</li>
+              <li>Low stock: Classic Sneakers (Size 42)</li>
+              <li>Next shipment: Wednesday</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+
+      <img src="./images/image-2.jpg" alt="Shoes on display (hero image)" />
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <small>© 2026 ShoeStore Group420</small>
+    <a href="mailto:support@shoestore.example">support@group420.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
